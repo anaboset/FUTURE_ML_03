@@ -89,8 +89,8 @@ Job Description ──┘
 ### Option A — Docker (recommended)
 
 ```bash
-git clone https://github.com/anaboset/ResumeIQ.git
-cd ResumeIQ
+git clone https://github.com/anaboset/FUTURE_ML_03
+cd FUTURE_ML_03
 
 docker compose up
 ```
@@ -106,8 +106,8 @@ docker compose -f compose.debug.yaml up
 ### Option B — Local Python
 
 ```bash
-git clone https://github.com/anaboset/ResumeIQ.git
-cd ResumeIQ
+git clone https://github.com/anaboset/FUTURE_ML_03
+cd FUTURE_ML_03
 
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
@@ -142,7 +142,7 @@ print(ranked_df[["name", "final_score_pct", "tier", "matched_skills", "missing_s
 ## 📁 Project Structure
 
 ```
-ResumeIQ/
+FUTURE_ML_IQ/
 │
 ├── src/                              # Core ML pipeline
 │   ├── __init__.py
